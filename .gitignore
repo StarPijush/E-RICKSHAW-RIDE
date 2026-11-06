@@ -1,0 +1,53 @@
+# ─────────────────────────────────────────────────────────────
+# E-GO Monorepo — Git Ignore Configuration
+# ─────────────────────────────────────────────────────────────
+
+# Proprietary / Internal Reference Documents (Do not track)
+rapido-analysis/
+toto-go-blueprint/
+EGO-AGENT-INSTRUCTIONS.md
+
+# Flutter Web Platform & Build Artifacts
+web/
+**/web/
+build/
+**/build/
+build/web/
+
+# Dart & Flutter SDK artifacts
+.dart_tool/
+**/.dart_tool/
+.pub/
+**/.pub/
+.pub-cache/
+**/.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+**/.flutter-plugins-dependencies
+
+# IDE, Editor & OS files
+.idea/
+**/.idea/
+*.iml
+**/*.iml
+*.ipr
+*.iws
+.vscode/
+**/.vscode/
+
+# System / OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# Logs & temp files
+*.log
+*.sqlite
+*.sqlite3
+*.tmp
+*.bak
